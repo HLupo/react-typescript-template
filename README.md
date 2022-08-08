@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# React Typescript Template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created in order to be used as a template for my future projects.
+
+## Embedded in this template
+
+### - [Redux](https://redux.js.org/) & [Redux Toolkit](https://redux-toolkit.js.org/)
+
+### - [React Router](https://reactrouter.com/)
+
+### - Eslint Airbnb + Prettier Setup
 
 ## Available Scripts
 
@@ -39,8 +47,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `yarn lint`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run an eslint analyse on the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `yarn lint:fix`
+
+Run an eslint analyse on the project and fix some errors
