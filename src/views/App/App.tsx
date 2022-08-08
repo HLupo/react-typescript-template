@@ -22,7 +22,8 @@ const App: FC = () => {
       >
         {isLoading ? "Stop loading" : "Start loading"}
       </button>
-      <h1>{isLoading.toString()}</h1>
+      <h1>{`Loading = ${isLoading.toString()}`}</h1>
+      <h1 hidden={isLoading}>{"learn react"}</h1>
     </div>
   );
 };
