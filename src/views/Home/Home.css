@@ -1,0 +1,7 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+}
